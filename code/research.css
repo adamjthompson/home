@@ -1,0 +1,139 @@
+html, html * {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Arvo, "Myriad Pro", Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+}
+body {
+	font-weight: 400;
+    background-color: rgba(30,30,30,1.00);
+	background-image: url(/images/fancy-pants.jpg);
+	background-position: 50% 0%;
+	background-attachment: fixed;
+	font-size: 1rem;
+	line-height: 1.6rem;
+}
+#wrapper {
+	width: 100%;
+	margin: 0;
+	padding: 1rem 1rem 1rem 1rem;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+@media (min-width:501px) {
+#wrapper {
+	max-width: 840px;
+	margin: 0 auto 0 auto;
+	padding: 2.4rem;
+	background-color: rgba(255,255,255,1.00);
+}
+img {
+	width: 100%;
+	max-width: 300px;
+	height: auto;
+}
+}
+@media (min-width:881px) {
+#wrapper {
+	max-width: 840px;
+	margin: 2rem auto 2rem auto;
+	background-color: rgba(255,255,255,1.00);
+	box-shadow: 0 0 5px 5px rgba(0,0,0,.2);
+}
+}
+.esrb {
+	max-width: 56px;
+}
+nav {
+	height: 1.2rem;
+}
+#back {
+	float: left;
+}
+#download {
+	float: right;
+	text-align: right;
+}
+a {
+	font-weight: 700;
+	color: rgba(0,0,0,1.00);
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+h1 {
+	border-top: 1px solid rgba(0,0,0,1.00);
+	margin-top: 0.5rem;
+	padding-top: 1rem;
+	text-align: center;
+	font-size: 1.4rem;
+	font-weight: 700;
+}
+h2 {
+	text-align: center;
+	font-size: 1rem;
+	font-weight: 400;
+}
+h3 {
+	margin: 2rem 0 1rem 0;
+	font-size: 1.2rem;
+	font-weight: 700;
+}
+p {
+	margin-bottom: 1rem;
+}
+ol, ul {
+	margin-left: 1.5rem;
+}
+.pad-top {
+	margin-top: 2rem;
+}
+.quote {
+	padding: 0 50px 0px 50px;
+}
+.imageL {
+	border: none;
+	margin: 5px 10px 5px 0px;
+	padding: 0;
+	float: left;
+	display: block;
+}
+.imageR {
+	border: none;
+	margin: 5px 0 5px 10px;
+	padding: 0;
+	float: right;
+	display: block;
+}
+#sources {
+	border-top: 1px solid #000000;
+	margin-top: 1rem;
+	padding-top: 1rem;
+}
+#sources ul {
+	margin-bottom: 2rem;
+}
+#sources a {
+	/* These are technically the same, but use both */
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	-ms-word-break: break-all;
+	/* This is the dangerous one in WebKit, as it breaks things wherever */
+	word-break: break-all;
+	/* Instead use this non-standard one: */
+	word-break: break-word;
+}
+.deadlink {
+	text-decoration: line-through;
+}
+.copyright {
+	color: rgba(102,102,102,1.00);
+	text-align: center;
+}
+.copyright a {
+	color: rgba(102,102,102,1.00);
+}

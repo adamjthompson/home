@@ -1,0 +1,191 @@
+/* Document Styles */
+body {
+	font-family: Myriad Pro, Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+	text-align: center;
+	color: #000000;
+	background-color: #ffffff;
+	margin: 0;
+	padding: 0;
+}
+/* Layout Styles */
+#content {
+	width: 600px;
+	text-align: left;
+	margin-top: 2em;
+	margin-right: auto;
+	margin-bottom: 2em;
+	margin-left: auto;
+}
+
+/* Redefined Tags */
+h1 {
+	font-size: 1.6em;
+	font-weight: bold;
+	line-height: 1em;
+	padding: 0 0 .2em 0;
+	margin: 0;
+}
+h2 {
+	font-size: 1.2em;
+	font-weight: bold;
+	line-height: 1em;
+	padding: 0 0 .8em 0;
+	margin: 0;
+	color: #222222;
+}
+h3 {
+	font-size: 1.0em;
+	font-weight: bold;
+	line-height: 1em;
+	padding: 1em 0 .2em 52px;
+	margin: 0;
+	color: #333333;
+}
+p {
+	font-size: .9em;
+	font-weight: normal;
+	line-height: 1.2em;
+	padding: 0 0 0 52px;
+	margin: 0;
+	color: #333333;
+}
+a:link {
+	text-decoration: none;
+	color: #990000;
+}
+a:hover {
+	text-decoration: underline;
+	color: #FF0000;
+}
+a:active {
+	text-decoration: underline;
+	color: #FF0000;
+}
+a:visited {
+	text-decoration: none;
+	color: #990000;
+}
+ul {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 52px;
+	font-size: .9em;
+	font-weight: normal;
+	line-height: 1.2em;
+	padding: .5em 0 0 52px;
+	margin: 0;
+	color: #333333;
+}
+li {
+	list-style-type: square;
+	padding-left: .2em;
+	margin-left: 1em;
+}
+/* Text Styles */
+h2.heading {
+	border-top: 1px solid #000000;
+	padding: .5em 0 .3em 0;
+	margin-top: 1em;
+	color: #000000;
+}
+h3.title {
+	font-weight: bold;
+}
+.toppad {
+	padding-top: 1em;
+}
+.bottompad {
+	padding-bottom: 1em;
+}
+
+/* Image Styles */
+.padded {
+	margin-right: 6px;
+	border: 1px solid #000000;
+}
+.screensquare {
+	margin: 1em 6px 0 0;
+	border: 1px solid #000000;
+}
+#screenshot {
+	position: absolute;
+	border: 1px solid #cccccc;
+	background: #333333;
+	padding: 3px;
+	display: none;
+	color: #ffffff;
+	text-align: center;
+	}
+.caption {
+	line-height: 1.4em;
+	}
+.preview {
+	border: 1px solid #000000;
+	margin: 0;
+	padding: 0;
+}
+.padright {
+	padding-right: 4px;
+	margin-top: -1px;
+}
+/* Flash Styles */
+/*
+#FlashCenter {
+	position: absolute;
+	background-color: transparent;
+	top: 50%;
+	left: 0px;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	overflow: visible;
+	display: block;
+	text-align: center;
+}
+#Flash320 {
+	position: absolute;
+	background-color: #ffffff;
+	top: -120px;
+	left: 50%;
+	width: 320px;
+	height: 240px;
+	visibility: visible;
+	margin-left: -160px;
+	border: 1px solid #000000;	
+}
+#Flash640 {
+	position: absolute;
+	background-color: #ffffff;
+	top: -240px;
+	left: 50%;
+	width: 640px;
+	height: 480px;
+	visibility: visible;
+	margin-left: -320px;
+	border: 1px solid #000000;
+}
+#Flash427 {
+	position: absolute;
+	background-color: #ffffff;
+	top: -213px;
+	left: 50%;
+	width: 640px;
+	height: 427px;
+	visibility: visible;
+	margin-left: -320px;
+	border: 1px solid #000000;
+}
+#Flash400 {
+	position: absolute;
+	background-color: #ffffff;
+	top: -150px;
+	left: 50%;
+	width: 400px;
+	height: 300px;
+	visibility: visible;
+	margin-left: -200px;
+	border: 1px solid #000000;
+}
+*/
+
