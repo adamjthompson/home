@@ -11,7 +11,7 @@ body {
     line-height: 1.2rem;
     color: rgba(255,255,255,1.00);
     background-color: rgba(30,30,30,1.00);
-    background-image: url(images/fancy-pants.jpg);
+    background-image: url(./images/fancy-pants.jpg);
     background-position: 50% 0%;
     background-attachment: fixed;
 }
