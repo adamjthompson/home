@@ -661,6 +661,7 @@ button {
   text-align: left;
   outline: none;
   transition: background-color 0.3s ease;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .accordion:hover {
@@ -684,6 +685,12 @@ button {
   margin-left: 5px;
   font-size: 1.25em;
   line-height: 1.25em;
+}
+
+/* Remove the default yellow/blue focus background on mobile browsers */
+.accordion:focus {
+  background-color: inherit;  /* don’t override hover/active color */
+  outline: none;              
 }
 
 .active:after {

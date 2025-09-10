@@ -14,7 +14,7 @@
     if (max < 0) max = 0;
     y = Math.max(0, Math.min(y, max));
 
-    $('html, body').stop(true, true).animate({ scrollTop: y }, 100);
+    $('html, body').stop(true, true).animate({ scrollTop: y }, 400);
   }
 
   $('.accordion').on('click', function () {
@@ -41,9 +41,7 @@
 
       // Scroll after layout settles
       requestAnimationFrame(function () {
-        requestAnimationFrame(function () {
-          scrollToHeading(btn);
-        });
+        scrollToHeading(btn);
       });
 
       // Align again after transition (if CSS animates max-height)
