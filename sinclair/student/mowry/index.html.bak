@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="keywords" content="Ten Best, HTML, CSS, Building Websites">
+<meta name="description" content="This is a website dedicated to showing users how to create webpages. It also showcases the 10 best websites.">
+<meta name="Robots" content="all, follow">
+<title>Ten Best Websites</title>
+<link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,700" rel="stylesheet">
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div id="wrapper">
+<header>
+  <div id="logo"><img src="images/Logo.gif" width="150" height="105" alt=""/></div>
+  <div id="banner"><img src="images/Banner.gif" width="669" height="105" alt=""/></div>
+  </header>
+  <div id="navbar">
+  	<a href="#" class="home" id="currentpage">Home</a>
+  	<a href="ten-best1.html" target="_self">10 Best</a>
+  	<a href="#">Featured Designer</a>
+  	<a href="#">Resources</a>
+  	<a href="#">Events</a>
+  </div>
+  <div id="slideshow"><p>Slideshow</p></div>
+  <main>
+    <div id="main-col1"><p class="seo">Search Engine Optimization</p>
+	  <p class="p"><a href="Resorces.html" target="_self" class="p">SEO is the process of maximizing the number of visitors to a particular website by ensuring that the site appears high on the list of results returned by a search engine. "The key to getting more traffic lies integrating content with search engine optimization and social media marketing".</a><img src="images/Untitled-3-01.png" alt="" width="19" height="195" class="main-img-3"/></p>
+	  <br>
+	  <p class="seo">Designing a Website</p>
+	  <p class="p"><a href="Resorces.html" target="_self" class="p">When designing a website you need to do some brainstorming and out ideas to paper. From there draw ideas for a web page layout. There are a lot more aspects that go into designing the final layout of the web page.</a><img src="images/Untitled-3-01.png" alt="" width="19" height="195" class="main-img-2"/></p>
+	  <br>
+	  <p class="seo">Hosting a Website</p>
+    <p class="p"><a href="Resorces.html" target="_self" class="p">Basically Web Hosting refers to a place where all website owners store their websites. Your essential files, from documents to videos to images will all be kept in a web host. Web hosting services are categorized into plans. When you start to hunt for a web hosting plan, its easy to be overwhelmed by the long list of available options.</a><img src="images/Untitled-3-01.png" alt="" width="19" height="195" class="main-img-1"/></p>
+    </div>
+    <div id="main-col2"><p class="seo">Cascading Style Sheets</p>
+	  <p><a href="Resorces.html" target="_self" class="p">CSS is a language for specifying how your documents are presented to users and how they are styled, lais out, ect. A document is usually a text file structured using a markup language called HTML. From that document you use CSS to visually style your structured HTML.</a><img src="images/Untitled-3-01.png" alt="" width="19" height="195" class="main-img-4"/></p>
+		<br>
+	  <p class="seo">Usability Considerations</p>
+	  <p class="p"><a href="Resorces.html" target="_self" class="p" >Considering how people are going to use your page will help you figure out where navigation, layout and color scheme come into play. Creating a usuable and simple layout can make or break your page.</a><img src="images/Untitled-3-01.png" alt="" width="19" height="195" class="main-img-5"/></p>
+	  <br>
+	  <a href="https://www.adobe.com/creativecloud/buy/students.html?sdid=1SQHD8RR&mv=search&s_kwcid=AL!3085!3!247644865123!b!!g!!photoshop%20for%20students&ef_id=WYKJkwAABc5Cv8bv:20180418054149:s" target="_blank"><img src="images/merged-2.jpg" width="359" height="150" alt=""/></a>
+    </div>
+</main>
+<footer>
+    <div id="footer-top">
+  	<a href="#" class="home" id="footer-nav">Home</a>
+  	<a href="ten-best1.html" target="_self">10 Best</a>
+  	<a href="#">Featured Designer</a>
+  	<a href="#">Resources</a>
+  	<a href="#">Events</a>
+    </div>
+    <div id="footer-bottom">
+      <div id="footer-bottom-col1"><p><img src="images/Footer-01.png" alt="" width="129" height="30" class="img"/><img src="images/Footer-02.png" width="202" height="30" alt=""/></p>
+      </div>
+      <div id="footer-bottom-col2"><p><span class="contact">Email</span> <span class="spacer-1">..</span> 10best@gmail.com</p>
+		  <p><span class="contact">P.O.</span> <span class="spacer-2">.. </span>2587 Jessie Street</p><p class="athens">Athens, OH 45701</p>
+	  <p><span class="contact">Fax </span><span class="spacer-3">..</span> (740)-541-3642</p></div>
+      <div id="footer-bottom-col3"><p><img src="images/Insta-logo.png" alt="" width="28" height="30" class="footer-img"/><span class="footer-insta">@10_best</span></p>
+		<p><img src="images/Facebook-logo.png" alt="" width="28" height="30" class="footer-img"/><span class="footer-face">10 Best</span></p>
+		<p><img src="images/Twitter-logo.png" alt="" width="35" height="30" class="twitter"/>
+	<span class="footer-twitter">@10best</span></p>
+	    <p><img src="images/Linkedin-logo.png" alt="" width="28" height="30" class="footer-img"/><span class="footer-linked">10 Best</span></p></div>
+      <div id="footer-bottom-col4"><img src="images/Search-bar.png" width="262" height="34" alt=""/></div>
+    </div>
+  </footer>
+</div>
+</body>
+</html>

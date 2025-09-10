@@ -1,0 +1,247 @@
+@charset "UTF-8";
+
+
+
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    position: relative;
+    margin-top: -8px;
+    padding-bottom: 0px;
+}
+
+body {
+    margin-left: auto;
+    margin-right: auto;
+    /* [disabled]margin-top: auto; */
+    /* [disabled]margin-bottom: auto; */
+    background-image: url(Website%20Images/crossline-lines.png);
+    background-repeat: repeat;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+header {
+	background-color: #75E8E8;
+	float: right;
+	height: 354px;
+	width: 774px;
+}
+#slideshow {
+	width: 779px;
+	height: 358px;
+}
+nav {
+	background-color: #6460A4;
+	float: none;
+	height: 354px;
+	font-size: 20px;
+	padding-bottom: 0px;
+	width: 226px;
+}
+nav ul li {
+    list-style-type: none;
+    margin-top: -17px;
+    margin-left: 22px;
+    padding-right: 49px;
+    margin-right: 1px;
+    margin-bottom: -10px;
+    padding-top: 20px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    display: block;
+    border-bottom-width: 1px;
+    margin-bottom: -2px;
+    margin-right: -49px;
+    margin-top: 0px;
+    margin-left: -62px;
+    padding-left: 59px;
+    padding-right: 45px;
+    padding-top: 0px;
+}
+nav ul li a:hover {
+    color: #B2D1BB;
+
+}
+.selected {
+    background-color: #87A67C;
+}
+main {
+	background-color: #6460A4;
+	margin-top: 12px;
+	height: 698px;
+	background-image: url(Website%20Images/dino!.png);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: 13% 109%;
+	width: 691px;
+}
+main a {
+    color: #87A67C;
+}
+main a:hover {
+    color: #95C884;
+}
+
+.resourcetext {
+    margin-left: 22px;
+    color: #E8F1E5;
+}
+
+
+div {
+	position: absolute;
+	width: 567px;
+	height: 115px;
+}
+#content1 {
+	background-color: #D82225;
+}
+#content2 {
+}
+#wrapper nav img {
+	margin-left: 15px;
+	margin-top: 7px;
+}
+aside {
+    background-color: #87A67C;
+    width: 309px;
+    height: 698px;
+    float: right;
+    margin-top: 12px;
+}
+ul li {
+	list-style-type: none;
+}
+
+
+.asideimages {
+	margin-left: 17px;
+}
+footer {
+    background-color: #6460A4;
+    height: 135px;
+    width: 1000px;
+    clear: both;
+    color: #E8F1E5;
+}
+footer a {
+    color: #87A67C;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #92BD83;
+}
+
+footer a:visited {
+    color: #AEACC9;
+}
+
+
+.footer-section1 {
+	float: left;
+	width: 196px;
+}
+.footer-section2 {
+	float: left;
+	width: 344px;
+}
+.footer-section4 {
+    float: left;
+    width: 111px;
+    margin-top: 43px;
+    margin-left: 4px;
+}
+.footer-section3 {
+    float: left;
+    width: 200px;
+    margin-top: 43px;
+    margin-left: 35px;
+}
+
+.accordionedit {
+    padding-left: 0px;
+    font-size: 14px;
+
+}
+.tenbest {
+    margin-top: -1px;
+    margin-right: -4px;
+    margin-left: 18px;
+    margin-bottom: 9px;
+    width: 228px;
+}
+
+h2 {
+    margin-right: 8px;
+    padding-top: 17px;
+    margin-top: 12px;
+    margin-left: 20px;
+    color: #E8F1E5;
+    font-size: 26px;
+    margin-bottom: 12px;
+
+
+
+
+
+}
+.marcobuccitext {
+    padding-left: 16px;
+    margin-right: 23px;
+    text-align: justify;
+    color: #E8F1E5;
+    background-color: #87A67C;
+    padding-right: 13px;
+    padding-bottom: 14px;
+    margin-left: 17px;
+    margin-top: 16px;
+    padding-top: 19px;
+}
+.eventtext {
+    color: #FFFFFF;
+    font-size: 14px;
+    float: left;
+    margin-right: 13px;
+    margin-left: 21px;
+}
+#bestontheweb {
+    color: #E8F1E5;
+    font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    clear: both;
+    float: none;
+}
+.tentext {
+    width: 226px;
+    text-align: left;
+    margin-left: 21px;
+    line-height: 14px;
+    color: #E8F1E5;
+    margin-bottom: 29px;
+    margin-top: -9px;
+}
+.floatleft {
+    clear: none;
+    float: left;
+    width: 305px;
+    padding-right: 21px;
+    padding-left: 32px;
+    margin-left: 15px;
+    margin-bottom: -9px;
+
+
+}
+.tenbestmain {
+    width: 1001px;
+    float: right;
+    height: 899px;
+}
+footer .footer-section4 .topLink {
+}

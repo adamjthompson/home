@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>8.8</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>false</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FontSize>35</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>slideshow</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect>parallax</ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>400</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>/Users/legendpatty/Desktop/WOWSlider.app/Contents/Resources/templates/backgnd/transparent/</ImageTemplate>
+            <ImageTemplateName>Transparent</ImageTemplateName>
+            <ImageWidth>1000</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>false</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>/Users/legendpatty/Desktop/processes/19-SP-1218-200-Patty-Legend-PortfolioProject/slideshow.html</PublishFileName>
+            <PublishIndex>slideshow.html</PublishIndex>
+            <PublishPath>/Users/legendpatty/Desktop/processes/19-SP-1218-200-Patty-Legend-PortfolioProject</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>20</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#85cfd2</TemplateColor>
+            <TemplateFont>Anton</TemplateFont>
+            <TemplateName>transparent</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>top</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>/Users/legendpatty/Desktop/processes/Portfolio project/website/slide-06.jpg</url>
+                <title>slide-06</title>
+                <userurl>Gallery.html</userurl>
+                <filesize>130162</filesize>
+            </Image>
+            <Image>
+                <url>/Users/legendpatty/Desktop/processes/Portfolio project/website/slide-05.jpg</url>
+                <title>slide-05</title>
+                <userurl>Events.html</userurl>
+                <filesize>86753</filesize>
+            </Image>
+            <Image>
+                <url>/Users/legendpatty/Desktop/processes/Portfolio project/website/slide-04.jpg</url>
+                <title>slide-04</title>
+                <userurl>FeaturedDesigner.html</userurl>
+                <filesize>141543</filesize>
+            </Image>
+            <Image>
+                <url>/Users/legendpatty/Desktop/processes/Portfolio project/website/slide-03.jpg</url>
+                <title>slide-03</title>
+                <userurl>TenBest.html</userurl>
+                <filesize>120900</filesize>
+            </Image>
+            <Image>
+                <url>/Users/legendpatty/Desktop/processes/Portfolio project/website/slide-02.jpg</url>
+                <title>slide-02</title>
+                <userurl>Resources.html</userurl>
+                <filesize>148536</filesize>
+            </Image>
+            <Image>
+                <url>/Users/legendpatty/Desktop/processes/Portfolio project/website/slide-01.jpg</url>
+                <title>slide-01</title>
+                <userurl>Events.html</userurl>
+                <filesize>104227</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>

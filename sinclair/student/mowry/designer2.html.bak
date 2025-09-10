@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="keywords" content="Ten Best, HTML, CSS, Building Websites">
+<meta name="description" content="This is a website dedicated to showing users how to create webpages. It also showcases the 10 best websites.">
+<meta name="Robots" content="all, follow">
+<title>Ten Best Websites</title>
+<link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,700" rel="stylesheet">
+<link href="dessigner.css" rel="stylesheet" type="text/css">
+
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<script type="text/javascript" src="engine0/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section --></head>
+
+<body>
+<div id="wrapper">
+  <header>
+    <div id="logo"><img src="images/Logo.gif" width="150" height="105" alt=""/></div>
+    <div id="banner"><img src="images/Banner.gif" width="669" height="105" alt=""/></div>
+  </header>
+  <div id="navbar">
+	<a href="index.html" target="_self" class="home" >Home</a>
+  	<a href="ten-best1.html" target="_self">10 Best</a>
+  	<a href="designer1.html" id="currentpage" target="_self">Featured Designer</a>
+  	<a href="#">Resources</a>
+  	<a href="#">Events</a></div>
+  <main>
+    <div id="main-col1">
+      <div id="main-banner"><img src="images/matsart.png" width="748" height="70" alt=""/></div>
+    <p><img src="images/designer-01.png" alt="" width="20" height="779" class="lines"/></p>
+    </div>
+    <div id="main-col2">
+	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	<div id="wowslider-container0">
+	<div class="ws_images"><ul>
+		<li><img src="data0/images/screen_shot_20180331_at_10.36.28_pm.png" alt="" title="" id="wows0_0"/></li>
+		<li><img src="data0/images/screen_shot_20180331_at_10.37.22_pm.png" alt="" title="" id="wows0_1"/></li>
+		<li><a href="http://wowslider.net"><img src="data0/images/screen_shot_20180331_at_10.42.19_pm.png" alt="jquery carousel slider" title="" id="wows0_2"/></a></li>
+		<li><img src="data0/images/screen_shot_20180331_at_10.42.46_pm.png" alt="" title="" id="wows0_3"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title=""><span><img src="data0/tooltips/screen_shot_20180331_at_10.36.28_pm.png" alt=""/>1</span></a>
+		<a href="#" title=""><span><img src="data0/tooltips/screen_shot_20180331_at_10.37.22_pm.png" alt=""/>2</span></a>
+		<a href="#" title=""><span><img src="data0/tooltips/screen_shot_20180331_at_10.42.19_pm.png" alt=""/>3</span></a>
+		<a href="#" title=""><span><img src="data0/tooltips/screen_shot_20180331_at_10.42.46_pm.png" alt=""/>4</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">html5 slider</a> by WOWSlider.com v8.8m</div>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="engine0/wowslider.js"></script>
+	<script type="text/javascript" src="engine0/script.js"></script>
+	<!-- End WOWSlider.com BODY section --><p></p></div>
+    <div id="ad"><a href="https://www.adobe.com/creativecloud/buy/students.html?sdid=KKQWX&kw=semoverview&mv=search&s_kwcid=AL!3085!3!254724280259!b!!g!!abobe&ef_id=WYKJkwAABc5Cv8bv:20180418222327:s" target="_blank"><img src="images/Adobe-adver.png" width="150" height="600" alt=""/></a></div>
+  </main>
+  <footer>
+    <div id="footer-top">
+	<a href="index.html" target="_self" class="home" >Home</a>
+  	<a href="ten-best1.html" target="_self">10 Best</a>
+  	<a href="designer1.html" target="_self" id="footer-nav">Featured Designer</a>
+  	<a href="#">Resources</a>
+  	<a href="#">Events</a></div>
+    <div id="footer-bottom">
+      <div id="footer-bottom-col1">Content for New div Tag Goes Here</div>
+      <div id="footer-bottom-col2">Content for New div Tag Goes Here</div>
+      <div id="footer-bottom-col3">Content for New div Tag Goes Here</div>
+      <div id="footer-bottom-col4">Content for New div Tag Goes Here</div>
+    </div>
+  </footer>
+  </div>
+</body>
+</html>

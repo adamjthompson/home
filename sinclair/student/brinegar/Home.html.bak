@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Homepage</title>
+<link href="Styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="wrapper">
+  <header id="logo"> 
+    <img src="BESTLOGO.jpg" width="200" height="200" alt=""/>
+    <nav>
+      <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Artist.html">Artists</a></li>
+        <li><a href="Events.html">Events</a></li>
+        <li><a href="Resources.html">Resources</a></li>
+        <li><a href="Bestsites.html">Best Sites</a></li>
+      </ul>
+    </nav>
+</header>
+<main>
+  <div id="slideshow">Content for New section Tag Goes Here</div>
+  
+  <div id="10bestwebsites">
+    <h2 id="10bestsitesh2">10 Best Websites</h2>
+    <div id="imageofpeople">Content for New div Tag Goes Here</div>
+    Content for New div Tag Goes Here</div>
+  <div id="upcomingevents">
+    <h2 id="Upcomingevents">Upcoming Events</h2>
+    <div id="eventimage">Content for New div Tag Goes Here</div>
+    Content for New div Tag Goes Here</div>
+  <div id="resources">
+    <h2 id="resourcesheading">Resources</h2>
+    <div id="box1">Content for New div Tag Goes Here</div>
+    <div id="box2">Content for New div Tag Goes Here</div>
+    <div id="box3">Content for New div Tag Goes Here</div>
+    <div id="box4">Content for New div Tag Goes Here</div>
+    <div id="box5">Content for New div Tag Goes Here</div>
+    <div id="blickartad">Content for New div Tag Goes Here</div>
+    Content for New div Tag Goes Here</div>
+  <div id="meetfeaturedartist">
+    <h2 id="meetfeatureartisth2">Meet Featured Artists</h2>
+    <div id="davidcatrowimage">Content for New div Tag Goes Here</div>
+    Content for New div Tag Goes Here</div>
+  <div id="michaelsad">
+    <div id="adobead">Content for New div Tag Goes Here</div>
+    Content for New div Tag Goes Here</div>
+  </main>
+<footer>Content for New footer Tag Goes Here</footer>
+wrapper</div>
+</body>
+</html>

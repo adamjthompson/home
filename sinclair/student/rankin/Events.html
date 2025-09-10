@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Events - 10 Best Websites</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://use.typekit.net/yna0vek.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <!--Back To Top-->
+    <script>
+            window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("backtotop").style.display = "block";
+      } else {
+        document.getElementById("backtotop").style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+        </script>
+        <!--Smooth Scroll-->
+        <script>
+    // Select all links with hashes
+    $('a[href*="#"]')
+      // Remove links that don't actually link to anything
+      .not('[href="#"]')
+      .not('[href="#0"]')
+      .click(function(event) {
+        // On-page links
+        if (
+          location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+          && 
+          location.hostname == this.hostname
+        ) {
+          // Figure out element to scroll to
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          // Does a scroll target exist?
+          if (target.length) {
+            // Only prevent default if animation is actually gonna happen
+            event.preventDefault();
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000, function() {
+              // Callback after animation
+              // Must change focus!
+              var $target = $(target);
+              $target.focus();
+              if ($target.is(":focus")) { // Checking if the target was focused
+                return false;
+              } else {
+                $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+                $target.focus(); // Set focus again
+              };
+            });
+          }
+        }
+      });
+        </script>
+</head>
+<body>
+        <div id="wrapper">
+                <button onclick="topFunction()" id="backtotop" title="Back to Top" data-aos="fade-in"><img src="images/arrow-top.svg" alt="arrow"></button>
+                <div id="leaderboard">
+                    <a href="https://skillshare.com/" target="_blank"><img src="images/skillshare-ad.gif" alt="adheader" class="leaderboard"></a>
+                <span class="ad-text"><i>Advertisement</i></span>
+            </div>
+            <header><img src="images/10bestlogo-02.svg" alt="logo" width="260" height="126" class="header-logo"></header>
+            <nav>
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="designers.html"><li>Designers</li></a>
+                    <a href="10best.html"><li>Top 10</li></a>
+                    <a href="Resources.html"><li>Resources</li></a>
+                    <a href="Events.html"><li class="current">Events</li></a>
+                </ul>
+            </nav>
+            <div id="container2">
+                <!--Resources-->
+                <div id="inner-container2">
+        
+                <h2 id="events">Upcoming Events</h2>
+                    <div class="event-list">
+                        <h1>October 2019</h1>
+                        <a href="http://designconference.aiga.org/#!/" target="_blank"><span class="event-las-vegas">AIGA: Design Conference<br>October 17-19, 2019<br>Las Vegas, NV</span></a><br>
+                        <a href="https://smashingconf.com" target="_blank"><span class="event-barcelona">2nd Annual Smashing Conference<br>October 25-26, 2019<br>Barcelona</a></span>
+                        <h1>November 2019</h1>
+                        <a href="http://max.adobe.com/" target="_blank"><span class="event-san-diego">Adobe MAX: The Creativity Conference<br>November 2-4, 2019<br>San Diego, CA</span></a><br>
+                        <a href="https://www.senchacon.com" target="_blank"><span class="event-las-vegas">SenchaCon2019<br>November 7-9, 2019<br>Las Vegas, Nevada</span></a>
+                        <h1>February 2020</h1>
+                        <a href="http://lanyrd.com/topics/interaction-design/" target="_blank"><span class="event-new-york-city">Lanyrd.com: The Social Conference Directory Interaction Design Conference<br>February 4-8, 2020<br>New York City, NY</span></a>
+                        <h1>March 2020</h1>
+                        <a href="http://designprinciplesandpractices.com/2017-conference" target="_blank"><span class="event-toronto">11th International Conference on Design Principles & Practices<br>March 2-4, 2020<br>Toronto, Canada</span></a><br>
+                        <a href="http://www.lanyrd.com/topics/design/in/usa" target="_blank"><span class="event-san-fran">Lanyrd.com: The Social Conference Directory O’Reilly Design Conference<br>March 19-22, 2020<br>San Francisco, CA</span></a>
+                        <h1>April 2020</h1>
+                        <a href="http://www.designfornext.org/" target="_blank"><span class="event-rome">12th European Academy of Design Conference “Design for the Next . . .”<br>April 12-14, 2020<br>Rome, Italy</span></a><br>
+                        <a href="https://unite.shopify.com/" target="_blank"><span class="event-san-fran">UNITE: Shopify Partner & Developer Conference<br>April 20-21, 2020<br>San Francisco, CA</span></a>
+                        <h1>May 2020</h1>
+                        <a href="http://www.howdesignlive.com/" target="_blank"><span class="event-chicago">HOW Design Live<br>May 2-6, 2020<br>Hyatt Regency Chicago, IL</span></a>
+                        <h1>June 2020</h1>
+                        <a href="http://conference.99u.com/" target="_blank"><span class="event-new-york-city">The 99U Conference<br>June 7-9, 2020<br>New York City, NY</span></a>
+                        <h1>October 2020</h1>
+                        <a href="http://worlddesignsummit.com/" target="_blank"><span class="event-montreal">World Design Summit<br>October 16-25, 2020<br>Montreal, Canada</span></a>
+                    </div>
+                </div>
+        
+            </div>
+            <footer>
+                    <span class="copyright">&copy; 2019 10BestWebsites</span>
+                    <a href="contact.html" class="contact"><span>Contact</span></a>
+                    <div id="footer-icons"></div>
+                            <a href="#" target="new"><img src="images/twitter.svg" alt="twitter" class="twitter"></a>
+                            <a href="#" target="new"><img src="images/facebook.svg" alt="facebook" class="facebook"></a>
+                    <div id="footernav">
+                            <ul class="footer-nav">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="designers.html">Designers</a></li>
+                                    <li><a href="10best.html">10 Best</a></li>
+                                    <li><a href="Resources.html">Resources</a></li>
+                                    <li><a href="Events.html">Events</a></li>
+                                </ul>
+                    </div>
+            
+            </footer>
+        </div>
+        <div class="alert-box">
+          <span class="alert-message">This website is best viewed with <a href="https://www.google.com/chrome/">Chrome</a></span>
+          <a href="https://www.google.com/chrome/" target="_blank"><img src="images/google-chrome-symbol-logo-png-3.png" alt="get google chrome" class="googlechrome" width="25px"></a>
+          <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+          </div>
+          <!--Animation for alert box close-->
+          <script>
+                      // Get all elements with class="closebtn"
+                      var close = document.getElementsByClassName("closebtn");
+                      var i;
+                      
+                      // Loop through all close buttons
+                      for (i = 0; i < close.length; i++) {
+                        // When someone clicks on a close button
+                        close[i].onclick = function(){
+                      
+                          // Get the parent of <span class="closebtn"> (<div class="alert-box">)
+                          var div = this.parentElement;
+                      
+                          // Set the opacity of div to 0 (transparent)
+                          div.style.opacity = "0";
+                      
+                          // Hide the div after 600ms (the same amount of milliseconds it takes to fade out)
+                          setTimeout(function(){ div.style.display = "none"; }, 600);
+                        }
+                      }
+          </script>
+            <!--AnimateOnScroll Initialized-->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+          <script>
+            AOS.init();
+          </script>
+        </body>
+        </html>

@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Our Top 10 - 10 Best Websites</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://use.typekit.net/yna0vek.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+
+    <!--Back To Top-->
+    <script>
+        window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("backtotop").style.display = "block";
+  } else {
+    document.getElementById("backtotop").style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+    </script>
+    <!--Smooth Scroll-->
+    <script>
+// Select all links with hashes
+$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+      && 
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
+    </script>
+</head>
+<body>
+<div id="wrapper">
+        <button onclick="topFunction()" id="backtotop" title="Back to Top" data-aos="fade-in"><img src="images/arrow-top.svg" alt="arrow"></button>
+    <div id="leaderboard">
+            <a href="https://skillshare.com/" target="_blank"><img src="images/skillshare-ad.gif" alt="adheader" class="leaderboard"></a>
+            <span class="ad-text"><i>Advertisement</i></span>
+    </div>
+    <header><img src="images/10bestlogo-02.svg" alt="logo" width="260" height="126" class="header-logo"></header>
+    <nav id="nav2">
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="designers.html"><li>Designers</li></a>
+            <a href="10best.html"><li class="current">Top 10</li></a>
+            <a href="Resources.html"><li>Resources</li></a>
+            <a href="Events.html"><li>Events</li></a>
+        </ul>
+    </nav>
+    <div id="container3">
+        <!--IMAGE GRID-->
+        <div id="inner-container">
+            <div id="flex">
+            <a href="#activecollab" aria-label="Active Collab"><img src="images/Active Collab.png" alt="Active Collab" class="grid-image-top"></a>
+            <a href="#AmericaOffBalance" aria-label="America Off Balance"><img src="images/America off Balance.png" alt="America Off Balance" class="grid-image-top"></a>
+            <a href="#couple" aria-label="Couple"><img src="images/couple.png" alt="Couple" class="grid-image-top"></a>
+            <a href="#GoogleStore" aria-label="Google Store"><img src="images/google store.png" alt="Google Store" class="grid-image-top"></a>
+            <a href="#Middlechild" aria-label="Middle Child"><img src="images/middle child.png" alt="Middle Child" class="grid-image-middle"></a>
+            <a href="#spire" aria-label="Spire"><img src="images/Spire.png" alt="spire" class="grid-image-middle"></a>
+            <a href="#toonami" aria-label="Toonami"><img src="images/toonami.png" alt="Toonami" class="grid-image-bottom"></a>
+            <a href="#womenwill" aria-label="Womenwill"><img src="images/womenwill.png" alt="womenwill" class="grid-image-bottom"></a>
+            <a href="#vincit" aria-label="Vincit"><img src="images/vincit.png" alt="Vincit" class="grid-image-bottom"></a>
+            <a href="#zibbet" aria-label="Zibbet"><img src="images/zibbet.png" alt="Zibbet" class="grid-image-bottom"></a>
+        </div>  
+        <div id="alt-logo">
+            <img src="images/10 best websites alt logo.svg" alt="10 best websites">
+        </div>
+        
+<!--10 BEST SITES-->
+
+        <h2 class="siteheading" id="activecollab">Active Collab</h2>
+            <img src="images/Active Collab Large.png" alt="active collab" class="displayimage">
+            <div class="siteinfo">
+                <span class="sitetitle"><a href="https://activecollab.com/" target="blank">activecollab.com</a></span>
+                <a href="https://activecollab.com/" target="blank" aria-label="Visit Site"><img src="images/link.svg" alt="link" width="30" class="link"></a>
+                <span class="category">Business</span>
+                <p>Active Collab is a website developed to promote and sell software that improves team collaboration.</p>
+                <span class="sitetitle">Navigation</span>
+                <p>A horizontal navigation bar rests at the top left as well as login items on the top right. The navbar stays in place while scrolling and is always accessible. Each item links to a new html page. The opacity on the navigation bar changes upon scrolling letting the page reveal itself underneath the bar.</p>
+                <span class="sitetitle">Usability</span>
+                <p>There are not many distractors that inhibit the usage of this website. Much of the links are in the navigation bar. Graphical elements are emphasized but does not eat up the resources of the hardware. It is responsive to both mobile and desktop use.</p>
+                <span class="sitetitle">Content</span>
+                <p>The content features a lot of graphical components, as well as a mixture of large type and body type. All image content is high resolution and matches the rest of the website's theme.</p>
+                <span class="sitetitle">Design</span>
+                <p>The design consists of a light color palette with the exception of buttons having higher contrast (so they stand out). The layout is very dependent on scrolling to view content, but the limited content that is available per page prevents excessive scrolling.</p>
+            </div>
+        <h2 class="siteheading" id="AmericaOffBalance">America Off Balance</h2>
+            <img src="images/America off Balance Large.png" alt="America Off Balance" class="displayimage">
+            <div class="siteinfo">
+                <span class="sitetitle"><a href="https://americaoffbalance.org/" target="blank">americaoffbalance.org</a></span>
+                <a href="https://americaoffbalance.org/" target="blank" aria-label="Visit Site"><img src="images/link.svg" alt="link" width="30" class="link"></a>
+                <span class="category">Economics</span>
+                <p>The goal of America off Balance is to spread awareness on the American economy and our national debt problem.</p>
+                <span class="sitetitle">Navigation</span>
+                <p>Navigation features a vertical list view on the left hand side that stays static along all pages of the site. There is also a horizontal navigation menu at the top right that links to other sites affiliated with this one.</p>
+                <span class="sitetitle">Usability</span>
+                <p>Heavily reliant on scrolling for content, animations and graphics are heavily favored. Runs well on both desktop and mobile devices.</p>
+                <span class="sitetitle">Content</span>
+                <p>Infographics and short paragraphs. Smooth animated transitions.</p>
+                <span class="sitetitle">Design</span>
+                <p>The colors are duotone and monotone style with a variety of themes. However the most noticeable theme is green and black. They rely on using drawn characters and vector graphic design. Content is pushed heavily toward the center and is very large.
+                </p>
+            </div>
+        <h2 class="siteheading" id="couple">Couple</h2>
+            <img src="images/Couple Large.png" alt="couple" class="displayimage">
+            <div class="siteinfo">
+                <span class="sitetitle"><a href="https://couple.co/" target="blank">couple.co</a></span>
+                <a href="https://couple.co" target="blank" aria-label="Visit Site"><img src="images/link.svg" alt="link" width="30" class="link"></a>
+                <span class="category">Weddings</span>
+                <p>Couple's mission is to promote and sell engagement rings, wedding apparel, and wedding services.</p>
+                <span class="sitetitle">Navigation</span>
+                <p>Horizontal navigation bar is static at the top of the page and links to other html pages. The navigation menu also features a sign in option if you create an account. There are 3 links that feature drop downs with options. Each option has an image accompanied with it.</p>
+                <span class="sitetitle">Usability</span>
+                <p>Purchasing a wedding ring can be complicated, but this website is designed to make that process smoother. This website was designed to run smooth across all devices and web browsers. Elements are placed proportional to the layout without making anything crowded and confusing. Overall, the design is pleasant to use and is not complicated in any shape or form.</p>
+                <span class="sitetitle">Content</span>
+                <p>Content is very high quality. Images are well shot and touched up. Font style, size, and color fit with the subject matter. Immediately upon entering the website the user is introduced to the site’s purpose and goal. Subject is clear and concise.</p>
+                <span class="sitetitle">Design</span>
+                <p>The design is minimal and works like a grid when featuring several items at once. Scrolling is the main function that drives the design and allows the user to explore the options available. There is great pairing with the color palette which features light flat colors with a more pastel style. The design feels welcoming and friendly to consumers.</p>
+            </div>
+        <h2 class="siteheading" id="GoogleStore">Google Store</h2>
+            <img src="images/Google Store Large.png" alt="Google Store" class="displayimage">
+            <div class="siteinfo">
+                <span class="sitetitle"><a href="https://store.google.com/" target="blank">store.google.com</a></span>
+                <a href="https://store.google.com" target="blank" aria-label="Visit Site"><img src="images/link.svg" alt="link" width="30" class="link"></a>
+                <span class="category">Tech Products</span>
+                <p>Google's store is built to do exactly what a Google store would do, promote and sell Google devices and accessories.</p>
+                <span class="sitetitle">Navigation</span>
+                <p>Top bar navigation is static across all pages. Each page is separated via a category, product, or collection. Top bar disappears on product page when scrolled down to reveal navigation for specific product features. Navigation bar adapts to screen size and changes appearance when shrunk. When shrunk to mobile size, it reveals graphic images along with navigation text to make it easier to tap on a touch device.</p>
+                <span class="sitetitle">Usability</span>
+                <p>This website was designed for easy usability. It is fast and responsive. It adapts to screen size, meaning it can be used on virtually any device without any consequences in usability. It is easy to remember where things are located due to the consistent theme throughout each page.</p>
+                <span class="sitetitle">Content</span>
+                <p>The Google Store keeps things minimal. Large bodies of text are not the focus. They keep things short and to the point. Very clear and well thought out typography (font choice). They make great use of video content. Each component reveals a video graphic of the product that auto-plays upon reveal rather than a static image display. This could be a problem for those on a slow internet connection or ancient device.</p>
+                <span class="sitetitle">Design</span>
+                <p>This design has a clear emphasis on scrolling. As you scroll it reveals another piece of content, similar to that of a slider. There are also horizontal sliding elements that allow you to pick and choose other products on their line. This website was designed to be used on mobile and desktop devices, but I see a lot more mobile influence than anything else.</p>
+            </div>
+        <h2 class="siteheading" id="Middlechild">Middle Child</h2>
+            <img src="images/Middle Child Large.png" alt="Middle Child" class="displayimage">
+            <div class="siteinfo">
+                <span class="sitetitle"><a href="https://middlechildphilly.com/" target="blank">middlechildphilly.com</a></span>
+                <a href="https://middlechildphilly.com/" target="blank" aria-label="Visit Site"><img src="images/link.svg" alt="link" width="30" class="link"></a>
+                <span class="category">Dining</span>
+                <p>This site was designed to promote a deli and sandwich shop in downtown Phillidelphia.</p>
+                <span class="sitetitle">Navigation</span>
+                <p>Side bar menu that opens to reveal a dynamic and simple selection of menu items across the whole screen. Hovering each item reveals a fluid playful animation that is well suited for the rest of the site’s design. When in mobile view, the navigation style / animation stays the same but in a list view rather than 4 square layout. These items are also standard across each page and do not change. Each page is saved and named exactly as the text in the navigation menu making redirects very easy.</p>
+                <span class="sitetitle">Usability</span>
+                <p>Usability is incredibly minimalistic, but is able to get across the information smoothly without any hassle. This site is very well suited for mobile use and touch screen devices, but also works just fine on desktop interfaces. Heavy graphics use could potentially be susceptable to lag. I’ve experienced slow downs while scrolling throughout the menu of food items. </p>
+                <span class="sitetitle">Content</span>
+                <p>With responsive minimalistic website designs, content is a lot more ‘show don’t tell’. Hovering over a food menu item reveals an image of the food item while also providing a brief 1 to 2 sentence summary of the item. Even though this site does not have long blocks of text to provide information, it still isn’t lacking. There is very heavy use in graphics and typography to get messages across. For example: the Nut Free graphic is very easily noticeable and gives those like myself who have nut allergies reassurance that their restaurant is safe to eat.</p>
+                <span class="sitetitle">Design</span>
+                <p>Playful and bright. The first thing you see when you load the site is a big smiling face that is responsive to the mouse cursor’s position on the page. This sets the tone for the website from the get go that they are not just your “regular” sandwich shop deli, but they have personality. The layout stays consistent throughout each page, but can be quite tedious to those on machines that aren’t as up to date with graphics processing and may lag.</p>
+            </div>
+        <h2 class="siteheading" id="spire">Spire</h2>
+            <img src="images/Spire Large.png" alt="Spire" class="displayimage">
+            <div class="siteinfo">
+                <span class="sitetitle"><a href="https://spire.com/" target="blank">spire.com</a></span>
+                <a href="https://spire.com" target="blank" aria-label="Visit Site"><img src="images/link.svg" alt="link" width="30" class="link"></a>
+                <span class="category">Engineering</span>
+                <p>Spire provides information to consumers and companies on how Spire is collecting data from space to solve problems on Earth.</p>
+                <span class="sitetitle">Navigation</span>
+                <p>A right side bar can be revealed that opens up to the whole screen a vertical list of pages and directories. At the top is also a horizontal list of buttons that open more information surrounding the site’s content.</p>
+                <span class="sitetitle">Usability</span>
+                <p>This site is very graphics intensive and has many moving elements. Lower end devices could suffer the cost of this amount of processing. However this site transitions very nicely onto a mobile device and functions the same as on desktop. Items are clear, and easy to interact with. Though the amount of content available can make it tougher to remember where content is.</p>
+                <span class="sitetitle">Content</span>
+                <p>This website utilizes more text than others in the list. Lots of images are accompanied by text as well. The quality of the images and information is high and up to date with today’s standards.</p>
+                <span class="sitetitle">Design</span>
+                <p>The layout for this site can be confusing. There are widgets, side bars, animated elements, custom cursors. There is parallax between the foreground (content) and the background (images).  The design appears to mimic a futuristic sci-fi kind of aesthetic which compliments the site’s overall goal and subject matter. It is scalable by window size and resolution.</p>
+            </div>
+        <h2 class="siteheading" id="toonami">Toonami</h2>
+            <img src="images/Toonami Large.png" alt="Toonami" class="displayimage">
+            <div class="siteinfo">
+                <span class="sitetitle"><a href="https://toonami.com" target="blank">toonami.com</a></span>
+                <a href="https://toonami.com" target="blank" aria-label="Visit Site"><img src="images/link.svg" alt="link" width="30" class="link"></a>
+                <span class="category">Television</span>
+                <p>Adult Swim's website for their Toonami block perfectly captures the atmosphere of the programs they air geared toward teens and young adults.</p>
+                <span class="sitetitle">Navigation</span>
+                <p>Navigation on this site is visually dynamic with heavy emphasis on graphics and animation. There are no separate html pages for content other than links that that direct off site. Every element is one page. There is a top navigation bar that links to other Adult Swim content and is static throughout all pages.</p>
+                <span class="sitetitle">Usability</span>
+                <p>The usability is surprisingly good. With the amount of details in the background and futuristic techno-like interface, navigating through the site is simple on both desktop and mobile devices. Since it is only one page that needs to load all the contents, it is responsive and has virtually no lag or delay. Readability is clear, there is consistency, and not too many items scattered about the interface that confuse their target audience.</p>
+                <span class="sitetitle">Content</span>
+                <p>The information displayed is updated weekly if not daily. Since this site is showcasing television show schedules. Most content is graphical and high resolution with the exception of videos being low quality when opened.</p>
+                <span class="sitetitle">Design</span>
+                <p>The design has a consistent color pallette and structure. There is a background and foreground that utilizes parallax movement when navigating. Seamless and smooth transitions from each element.</p>
+            </div>
+        <h2 class="siteheading" id="vincit">Vincit</h2>
+            <img src="images/Vincit Large.png" alt="Vincit" class="displayimage">
+            <div class="siteinfo">
+                <span class="sitetitle"><a href="https://vincit.com" target="blank">vincit.com</a></span>
+                <a href="https://vincit.com/" target="blank" aria-label="Visit Site"><img src="images/link.svg" alt="link" width="30" class="link"></a>
+                <span class="category">App Development</span>
+                <p>Vincit is no more than a beautifully crafted portfolio of all the design work produced by the Vincit team.</p>
+                <span class="sitetitle">Navigation</span>
+                <p>This site features a horizontal menu at the top of the page, as well as a hamburger menu that opens up on the entire page revealing the same nav menu items in a more immersive format. The navigation bar is static at the top of the page, and does not move when scrolling.</p>
+                <span class="sitetitle">Usability</span>
+                <p>Using this design is pleasant. It is very simplistic and has very few elements that inhibit the usability. Each page is consistent with the last as well as each page being correctly named for memorability. Learning the design is quick and easy due to the structure being solely left to scrolling up down or left to right.</p>
+                <span class="sitetitle">Content</span>
+                <p>Content is presented in a clean manner with most visual elements standing alone while scrolling down to reveal any accompanied text. Vincit steers clear from long blocks of text and instead prefers short paragraphs that are separated by the page’s scrolling height. Images are high res, and animations are applied to many parts of their showcase for a more immersive experience.</p>
+                <span class="sitetitle">Design</span>
+                <p>The color palette transitions from dark to light as the page scrolls down. There is heavy emphasis on flat design. Headline text divides sections of each page as you scroll which also sit in the background letting content scroll over until fades away. Beautifully crafted animated transitions for the navigation structure, and from one page to the next. Elements are aligned to a grid and have distinct margins that prevent items from spilling too far out of the user’s focus.</p>
+            </div>
+        <h2 class="siteheading" id="womenwill">Womenwill</h2>
+            <img src="images/Womenwill Large.png" alt="Womenwill" class="displayimage">
+            <div class="siteinfo">
+                <span class="sitetitle"><a href="https://dataexplorer.womenwill.com/" target="blank">dataexplorer.womenwill.com</a></span>
+                <a href="https://dataexplorer.womenwill.com" target="blank" aria-label="Visit Site"><img src="images/link.svg" alt="link" width="30" class="link"></a>
+                <span class="category">Social Issues</span>
+                <p>Womenwill's mission is to spread awareness of the gender gap around the world through the use of infographics and animations.</p>
+                <span class="sitetitle">Navigation</span>
+                <p>This website features a horizontal navigation menu at the top, however the primary manner of navigation is via buttons within the page’s design. The site walks the user through the website by clicking and scrolling, like reading a story. Users can skip through the story by the navigation items at the top. These items do not redirect to any new html page but rather use animations and transitions to activate new content.</p>
+                <span class="sitetitle">Usability</span>
+                <p>Fantastic usability. The entire website is linear and automated. There is a minimal amount of links or text to get lost in which makes content much more memorable.</p>
+                <span class="sitetitle">Content</span>
+                <p>Very reliant on infographics and simulated graphics. Particle simulators create graphics that represent the data being collected. Text is very straight forward with 1 to 2 sentences per slide.</p>
+                <span class="sitetitle">Design</span>
+                <p>This design has a very light color palette accompanied by pastel colors. There is a sense of depth with the design as different animated graphics interact with user input changing the perspective of items that morph and adapt to the changes on each page.</p>
+            </div>
+        <h2 class="siteheading" id="zibbet">Zibbet</h2>
+            <img src="images/Zibbet Large.png" alt="Zibbet" class="displayimage">
+            <div class="siteinfo">
+                <span class="sitetitle"><a href="https://zibbet.com/" target="blank">zibbet.com</a></span>
+                <a href="https://zibbet.com/" target="blank" aria-label="Visit Site"><img src="images/link.svg" alt="link" width="30" class="link"></a>
+                <span class="category">Creative Enterprise</span>
+                <p>Zibbet aims to help artists and entrepreneurs sell their products more efficiently, so they built this website to do just that.</p>
+                <span class="sitetitle">Navigation</span>
+                <p>Horizontal navigation bar that stays at the top of the page as the page is scrolled.  There is an option to create an account in the navigation. There are 4 items in the navigation bar with some that feature a drop down list of more options. Links to other html pages and satellite sites affiliated with Zibbet.</p>
+                <span class="sitetitle">Usability</span>
+                <p>From the start this website was designed for ease of use. The layout is responsive to any changes in screen resolution making it dynamic for mobile and desktop usage. Items are categorized.</p>
+                <span class="sitetitle">Content</span>
+                <p>Content features the use of vector graphics and illustrations. Some graphics are animated. The process for how they advertise their service is drawn like a timeline as the user scrolls.</p>
+                <span class="sitetitle">Design</span>
+                <p>Very big emphasis on scroll design. All content is aligned to their respected margins and guidelines. The color pallette is light and features soft colors that are easy on the user’s eyes.</p>
+            </div>
+        </div>
+        
+
+    </div>
+    <footer>
+            <span class="copyright">&copy; 2019 10BestWebsites</span>
+            <a href="contact.html" class="contact"><span>Contact</span></a>
+            <div id="footer-icons"></div>
+                    <a href="#" target="new"><img src="images/twitter.svg" alt="twitter" class="twitter"></a>
+                    <a href="#" target="new"><img src="images/facebook.svg" alt="facebook" class="facebook"></a>
+            <div id="footernav">
+                    <ul class="footer-nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="designers.html">Designers</a></li>
+                            <li><a href="10best.html">10 Best</a></li>
+                            <li><a href="Resources.html">Resources</a></li>
+                            <li><a href="Events.html">Events</a></li>
+                        </ul>
+            </div>
+    
+    </footer>
+</div>
+<div class="alert-box">
+    <span class="alert-message">This website is best viewed with <a href="https://www.google.com/chrome/">Chrome</a></span>
+    <a href="https://www.google.com/chrome/" target="_blank"><img src="images/google-chrome-symbol-logo-png-3.png" alt="get google chrome" class="googlechrome" width="25px"></a>
+    <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+    </div>
+    <!--Animation for alert box close-->
+    <script>
+                // Get all elements with class="closebtn"
+                var close = document.getElementsByClassName("closebtn");
+                var i;
+                
+                // Loop through all close buttons
+                for (i = 0; i < close.length; i++) {
+                  // When someone clicks on a close button
+                  close[i].onclick = function(){
+                
+                    // Get the parent of <span class="closebtn"> (<div class="alert-box">)
+                    var div = this.parentElement;
+                
+                    // Set the opacity of div to 0 (transparent)
+                    div.style.opacity = "0";
+                
+                    // Hide the div after 600ms (the same amount of milliseconds it takes to fade out)
+                    setTimeout(function(){ div.style.display = "none"; }, 600);
+                  }
+                }
+    </script>
+    <!--AnimateOnScroll Initialized-->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>

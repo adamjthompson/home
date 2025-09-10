@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Designers - 10BestWebsites</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://use.typekit.net/yna0vek.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+     <!--Back To Top-->
+     <script>
+            window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("backtotop").style.display = "block";
+      } else {
+        document.getElementById("backtotop").style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+        </script>
+        <!--Smooth Scroll-->
+        <script>
+    // Select all links with hashes
+    $('a[href*="#"]')
+      // Remove links that don't actually link to anything
+      .not('[href="#"]')
+      .not('[href="#0"]')
+      .click(function(event) {
+        // On-page links
+        if (
+          location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+          && 
+          location.hostname == this.hostname
+        ) {
+          // Figure out element to scroll to
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          // Does a scroll target exist?
+          if (target.length) {
+            // Only prevent default if animation is actually gonna happen
+            event.preventDefault();
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000, function() {
+              // Callback after animation
+              // Must change focus!
+              var $target = $(target);
+              $target.focus();
+              if ($target.is(":focus")) { // Checking if the target was focused
+                return false;
+              } else {
+                $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+                $target.focus(); // Set focus again
+              };
+            });
+          }
+        }
+      });
+        </script>
+
+</head>
+<body>
+<div id="wrapper">
+        <button onclick="topFunction()" id="backtotop" title="Back to Top" data-aos="fade-in"><img src="images/arrow-top.svg" alt="arrow"></button>
+        <div id="leaderboard">
+            <a href="https://skillshare.com/" target="_blank"><img src="images/skillshare-ad.gif" alt="adheader" class="leaderboard"></a>
+                <span class="ad-text"><i>Advertisement</i></span>
+    </div>
+    <header><img src="images/10bestlogo-02.svg" alt="logo" width="260" height="126" class="header-logo"></header>
+    <nav>
+        <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="designers.html"><li class="current">Designers</li></a>
+            <a href="10best.html"><li>Top 10</li></a>
+            <a href="Resources.html"><li>Resources</li></a>
+            <a href="Events.html"><li>Events</li></a>
+        </ul>
+    </nav>
+    <div id="container-black">
+        <div id="article">
+            <h1>Jeffrey Zeldman</h1>
+            <h5>Web Designer at <a href="https://studio.zeldman.com/" target="new">studio.zeldman</a></h5>
+            <div id="title1"><span class="article-title">"The Godfather of Web Design".</span></div>
+            <div id="articlebody">
+                <p>In 1995 during the midst of the internet boom, Jeffrey Zeldman would begin his web design career designing websites for clients and running a web design blog, <a class="zeldman-site" href="http://www.zeldman.com/" target="new">zeldman.com</a>. Over his nearly 25 years of experience in designing for the web, he and his colleagues have made a tremendous impact on the web design industry today. He is the author of several award-winning books, the co-host of a podcast, and speaker at international design conferences. He was also the first to be inducted to the SXSW Interactive Hall of Fame in 2012.</p>
+                <p>Without the influence Zeldman had on the web design industry in the late 1990s, the standards for web design we have today may never have been implemented. Zeldman co-founded a project that brought HTML, CSS, and Javascript standards to web browsers. This was a movement they called The Web Standards Project. At the time, Netscape Navigator was competing with Internet Explorer for the world’s most used browser, however Zeldman believed that it was wiser to develop websites that would be optimized for all web browsers as more would begin to appear in the 2000s such as Firefox, Safari, Google Chrome, and Opera.</p>
+                <p>Zeldman has written several books, but his most popular work is about web standards. He wrote <i>Designing with Web Standards</i> with web designer <strong>Ethan Marcotte</strong>, most popular for coining the term “responsive web design”. Together they wrote 3 versions of the publication that have been utilized as course textbooks in universities around the world. On top of writing books, he also co-founded a publishing company called A Book Apart that publish books on web design. It was under this publishing company that Marcotte published his famous <i>Responsive Web Design</i> book that has heavily changed the way websites are designed in the 2010s era.</p>
+                <img src="images/book-apart-logo.png" alt="a book apart" width="377" class="book-apart">
+                <img src="images/book.png" alt="book" class="bookimage">
+                <p>If designing websites, writing books, and running a publishing company wasn’t enough, Zeldman was also hard at work with his own design studio Happy Cog which he had maintained since 1999. He designed a website for Warner Bros. during this time that would end up receiving 1.5 million unique visitors, which was half of the entire internet’s userbase. From this moment on, he continued designing websites for more clients, as well as teaching his craft through his mailing list ‘A List Apart’ which eventually became an international web design conference ‘An Event Apart’, which were businesses that partnered with <strong>A Book Apart</strong>.</p>
+                <p>Jeffrey Zeldman’s philosophy for web design has not changed since the days of Aol, Netscape and Mosaic. His belief is that web design is not about the technology, it’s about the people. Building an experience for the user is the most important part of web design. He heavily highlighted the importance of community through his many business ventures that helped shape the landscape for web design. Although he goes unnoticed by the masses, his work has left a major impact in the design world today.</p>
+                <img src="images/zeldman-graphic.png" alt="zeldman graphic" class="zeldman-graphic">
+            <div id="author">
+                <span class="post">Posted by</span>
+                <span class="author-name"><a href="profile.html">Jacob Rankin</a></span><br>
+                <span class="post-date">April 12, 2019</span>
+            </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+            <span class="copyright">&copy; 2019 10BestWebsites</span>
+            <a href="contact.html" class="contact"><span>Contact</span></a>
+            <div id="footer-icons"></div>
+                    <a href="#" target="new"><img src="images/twitter.svg" alt="twitter" class="twitter"></a>
+                    <a href="#" target="new"><img src="images/facebook.svg" alt="facebook" class="facebook"></a>
+            <div id="footernav">
+                    <ul class="footer-nav">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="designers.html">Designers</a></li>
+                            <li><a href="10best.html">10 Best</a></li>
+                            <li><a href="Resources.html">Resources</a></li>
+                            <li><a href="Events.html">Events</a></li>
+                        </ul>
+            </div>
+    
+    </footer>
+</div>
+<div class="alert-box">
+  <span class="alert-message">This website is best viewed with <a href="https://www.google.com/chrome/">Chrome</a></span>
+  <a href="https://www.google.com/chrome/" target="_blank"><img src="images/google-chrome-symbol-logo-png-3.png" alt="get google chrome" class="googlechrome" width="25px"></a>
+  <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+  </div>
+  <!--Animation for alert box close-->
+  <script>
+              // Get all elements with class="closebtn"
+              var close = document.getElementsByClassName("closebtn");
+              var i;
+              
+              // Loop through all close buttons
+              for (i = 0; i < close.length; i++) {
+                // When someone clicks on a close button
+                close[i].onclick = function(){
+              
+                  // Get the parent of <span class="closebtn"> (<div class="alert-box">)
+                  var div = this.parentElement;
+              
+                  // Set the opacity of div to 0 (transparent)
+                  div.style.opacity = "0";
+              
+                  // Hide the div after 600ms (the same amount of milliseconds it takes to fade out)
+                  setTimeout(function(){ div.style.display = "none"; }, 600);
+                }
+              }
+  </script>
+<!--AnimateOnScroll Initialized-->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

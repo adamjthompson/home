@@ -1,0 +1,69 @@
+@charset "UTF-8";
+html, html * {
+	font-family: "Montserrat", "Verdana", sans-serif;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	margin-right: 0px;
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body {
+	background-color: #000000;
+}
+
+
+
+
+footer {
+	float: left;
+	height: 200px;
+	clear: both;
+	background-color: #000000;
+	background-image: url(Images/1Footer%20Pattern.jpg);
+	width: 960px;
+	text-align: center;
+	padding-top: 15px;
+	font-size: 12pt;
+	font-weight: 400;
+
+}
+footer a   {
+	text-decoration: none;
+	color: #DA1C5C;
+	text-align: center;
+	font-size: 14pt;
+	font-weight: 500;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+footer a:hover {
+	color: #1FEAD6;
+}
+footer p  {
+	color: #FFFFFF;
+	font-size: 12pt;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+}
+
+.footercontact {
+	font-weight: 600;
+	font-size: 16pt;
+	margin-top: 9px;
+}
+
+
+.copyright {
+	font-size: 8pt;
+	color: #808080;
+	margin-top: 20px;
+}

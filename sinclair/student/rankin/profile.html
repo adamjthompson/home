@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jacob Rankin - 10BestWebsites</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://use.typekit.net/yna0vek.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <!--Back To Top-->
+    <script>
+            window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("backtotop").style.display = "block";
+      } else {
+        document.getElementById("backtotop").style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+        </script>
+        <!--Smooth Scroll-->
+        <script>
+    // Select all links with hashes
+    $('a[href*="#"]')
+      // Remove links that don't actually link to anything
+      .not('[href="#"]')
+      .not('[href="#0"]')
+      .click(function(event) {
+        // On-page links
+        if (
+          location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+          && 
+          location.hostname == this.hostname
+        ) {
+          // Figure out element to scroll to
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          // Does a scroll target exist?
+          if (target.length) {
+            // Only prevent default if animation is actually gonna happen
+            event.preventDefault();
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000, function() {
+              // Callback after animation
+              // Must change focus!
+              var $target = $(target);
+              $target.focus();
+              if ($target.is(":focus")) { // Checking if the target was focused
+                return false;
+              } else {
+                $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+                $target.focus(); // Set focus again
+              };
+            });
+          }
+        }
+      });
+        </script>
+</head>
+<body>
+        <div id="wrapper">
+                <div id="leaderboard">
+                        <a href="https://play.google.com/store/apps/details?id=com.outerminds.tubular&hl=en_US" target="_blank"><img src="images/pewdiepie-ad.gif" alt="adheader" class="leaderboard"></a>
+                        <span class="ad-text"><i>Advertisement</i></span>
+            </div>
+            <header><img src="images/10bestlogo-02.svg" alt="logo" width="260" height="126" class="header-logo"></header>
+            <nav>
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="designers.html"><li>Designers</li></a>
+                    <a href="10best.html"><li>Top 10</li></a>
+                    <a href="Resources.html"><li>Resources</li></a>
+                    <a href="Events.html"><li>Events</li></a>
+                </ul>
+            </nav>
+            <div id="container2profile">
+                <div id="profile-container">
+                    <span class="profile-display">
+                    <h1 class="profile-name">Jacob Rankin</h1></span>
+                    <a href="http://rankin.works/" target="_blank"><img src="images/profile-image.png" alt="jacob rankin" class="profile-image" width="200"></a>
+                    
+                    <h4 class="profile-titles">Graphic Designer &amp; Videographer<br></h4>
+
+                    <p class="profile-content"> My name is Jacob Rankin and I do graphic design and videography. This was a website I created as a project for my VIS-1218 Design Processes II course at Sinclair Community College. It's also a piece of my design portfolio I will be showcasing for my first year assessment. I dont really know what else to say here, so check out my portfolio website linked below! Or you can click on my beautiful face to the left ;)</p>
+                    <ul class="profile-contact-list">
+                        <a href="http://rankin.works/" target="_blank"><li>Portfolio Website</li></a>
+                        <a href="mailto:jake@rnkn.com"><li>Email</li></a>
+
+                    </ul>
+                </div>
+        
+            </div>
+            <footer>
+                    <span class="copyright">&copy; 2019 10BestWebsites</span>
+                    <a href="contact.html" class="contact"><span>Contact</span></a>
+                    <div id="footer-icons"></div>
+                            <a href="#" target="new"><img src="images/twitter.svg" alt="twitter" class="twitter"></a>
+                            <a href="#" target="new"><img src="images/facebook.svg" alt="facebook" class="facebook"></a>
+                    <div id="footernav">
+                            <ul class="footer-nav">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="designers.html">Designers</a></li>
+                                    <li><a href="10best.html">10 Best</a></li>
+                                    <li><a href="Resources.html">Resources</a></li>
+                                    <li><a href="Events.html">Events</a></li>
+                                </ul>
+                    </div>
+            
+            </footer>
+        </div>
+            <!--AnimateOnScroll Initialized-->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+          <script>
+            AOS.init();
+          </script>
+        </body>
+        </html>

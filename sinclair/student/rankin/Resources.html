@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resources - 10 Best Websites</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <link rel="stylesheet" href="https://use.typekit.net/yna0vek.css">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <!--Back To Top-->
+    <script>
+            window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("backtotop").style.display = "block";
+      } else {
+        document.getElementById("backtotop").style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+        </script>
+        <!--Smooth Scroll-->
+        <script>
+    // Select all links with hashes
+    $('a[href*="#"]')
+      // Remove links that don't actually link to anything
+      .not('[href="#"]')
+      .not('[href="#0"]')
+      .click(function(event) {
+        // On-page links
+        if (
+          location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+          && 
+          location.hostname == this.hostname
+        ) {
+          // Figure out element to scroll to
+          var target = $(this.hash);
+          target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+          // Does a scroll target exist?
+          if (target.length) {
+            // Only prevent default if animation is actually gonna happen
+            event.preventDefault();
+            $('html, body').animate({
+              scrollTop: target.offset().top
+            }, 1000, function() {
+              // Callback after animation
+              // Must change focus!
+              var $target = $(target);
+              $target.focus();
+              if ($target.is(":focus")) { // Checking if the target was focused
+                return false;
+              } else {
+                $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+                $target.focus(); // Set focus again
+              };
+            });
+          }
+        }
+      });
+        </script>
+</head>
+<body>
+        <div id="wrapper">
+                <button onclick="topFunction()" id="backtotop" title="Back to Top" data-aos="fade-in"><img src="images/arrow-top.svg" alt="arrow"></button>
+                <div id="leaderboard">
+                    <a href="https://skillshare.com/" target="_blank"><img src="images/skillshare-ad.gif" alt="adheader" class="leaderboard"></a>
+                <span class="ad-text"><i>Advertisement</i></span>
+            </div>
+            <header><img src="images/10bestlogo-02.svg" alt="logo" width="260" height="126" class="header-logo"></header>
+            <nav>
+                <ul>
+                    <a href="index.html"><li>Home</li></a>
+                    <a href="designers.html"><li>Designers</li></a>
+                    <a href="10best.html"><li>Top 10</li></a>
+                    <a href="Resources.html"><li class="current">Resources</li></a>
+                    <a href="Events.html"><li>Events</li></a>
+                </ul>
+            </nav>
+            <div id="container2">
+                <!--Resources-->
+                <div id="inner-container2">
+        
+                <h2 id="build">Learn to Build a Website</h2>
+                    <div class="resource-list">
+                        <ul>
+                            <li><a href="https://theblog.adobe.com/a-comprehensive-guide-to-web-design/" target="_blank">A Comprehensive Guide to Web Design</a><br><span class="site-author">by Nick Babich</span></li>
+                            <li><a href="https://www.websitebuilderexpert.com/designing-websites/" target="_blank">How to Design a Website (Jan 2019) | 7 Essential Steps</a><br><span class="site-author">by Joshua Frisby</span></li>
+                            <li><a href="https://learn.shayhowe.com/advanced-html-css/responsive-web-design/" target="_blank">Learn to Code Advanced HTML &amp; CSS</a><br><span class="site-author">by Shay Howe</span></li>
+                            <li><a href="https://teamtreehouse.com/library/topic:html" target="_blank">HTML Courses</a><br><span class="site-author">by Treehouse Island<br></span></li>
+                            <li><a href="https://torquemag.io/2018/07/web-design-tips/" target="_blank">10 Highly Effective Web Design Tips Backed by Research</a><br><span class="site-author">by Nick Schäferhoff</span></li>
+                        </ul>
+                    </div>
+                <h2 id="css">Learn Cascading Style Sheets (CSS)</h2>
+                <div class="resource-list">
+                        <ul>
+                            <li><a href="https://www.w3.org/Style/CSS20/history.html" target="_blank">A Brief History of CSS Until 2016</a><br><span class="site-author">by Bert Bos</span></li>
+                            <li><a href="http://www.htmldog.com/guides/css/advanced/" target="_blank">CSS Advanced Tutorial</a><br><span class="site-author">by HTML Dog</span></li>
+                            <li><a href="https://www.tutorialspoint.com/css/index.htm" target="_blank">CSS Tutorial</a><br><span class="site-author">by Tutorial Point</span></li>
+                            <li><a href="https://www.w3schools.com/html/html_css.asp" target="_blank">HTML Styles - CSS</a><br><span class="site-author">by W3schools</span></li>
+                            <li><a href="http://www.htmlhelp.com/reference/css/" target="_blank">Cascading Style Sheets</a><br><span class="site-author">by John Pozadizides, Liam Quinn</span></li>
+                        </ul>
+                    </div>
+                <h2 id="webhost">Selecting a Web Host</h2>
+                <div class="resource-list">
+                        <ul>
+                            <li><a href="https://www.hostgator.in/blog/how-to-host-a-website-a-complete-guide-for-beginners/" target="_blank">How to Host a Website - A Complete Guide for Beginners</a><br><span class="site-author">by Hostgator</span></li>
+                            <li><a href="https://www.webhostingsecretrevealed.net/web-hosting-beginner-guide/" target="_blank">Web Hosting &amp; Domain 101: How Hosting a Website Works</a><br><span class="site-author">by Jerry Low</span></li>
+                            <li><a href="https://makeawebsitehub.com/host-website-computer/" target="_blank">How to Host a Website from Your Computer</a><br><span class="site-author">by Jamie Spencer</span></li>
+                            <li><a href="https://www.nutsandboltsmedia.com/why-you-shouldnt-register-domains-with-your-web-host/" target="_blank">Why You Shouldn't Register Domains with Your Web Host</a><br><span class="site-author">by Andrea Whitmer</span></li>
+                            <li><a href="https://www.pcmag.com/article2/0,2817,2424725,00.asp" target="_blank">The Best Web Hosting Services for 2019</a><br><span class="site-author">by Jeffrey L. Wilson</span></li>
+                        </ul>
+                    </div>
+                <h2 id="seo">Search Engine Optimization (SEO)</h2>
+                <div class="resource-list">
+                        <ul>
+                            <li><a href="https://backlinko.com/seo-this-year" target="_blank">SEO in 2019: The Definitive Guide</a><br><span class="site-author">by Brian Dean</span></li>
+                            <li><a href="https://support.google.com/webmasters/answer/35291?hl=en" target="_blank">Do You Need an SEO</a><br><span class="site-author">by Google Support</span></li>
+                            <li><a href="https://searchenginewatch.com/2016/01/21/seo-basics-22-essentials-you-need-for-optimizing-your-site/" target="_blank">SEO Basics: 22 Essentials You Need for Optimizing Your Site</a><br><span class="site-author">by Christopher Ratcliff</span></li>
+                            <li><a href="https://www.entrepreneur.com/article/231235" target="_blank">Your SEO Checklist: 4 Steps to Optimizing Your Website</a><br><span class="site-author">by Jon Rognerud</span></li>
+                            <li><a href="https://searchengineland.com/guide/what-is-seo" target="_blank">What is SEO / Search Engine Optimization</a><br><span class="site-author">by Search Engine Land</span></li>
+                        </ul>
+                    </div>
+                <h2 id="usability">Usability Considerations</h2>
+                <div class="resource-list">
+                        <ul>
+                            <li><a href="https://www.bopdesign.com/bop-blog/2017/04/digital-marketing-usability/" target="_blank">Digital Marketing &amp; Usability: Critical Considerations</a><br><span class="site-author">by Kara Jensen</span></li>
+                            <li><a href="https://usabilitylab.walkme.com/usability-considerations-web-design/" target="_blank">Usability Considerations in Web Design</a><br><span class="site-author">by Jessica Miller</span></li>
+                            <li><a href="http://overit.com/blog/10-website-usability-considerations-checklist" target="_blank">10 Website Usability Considerations Checklist</a><br><span class="site-author">by Joe Schaefer</span></li>
+                            <li><a href="https://www.usability.gov/what-and-why/user-interface-design.html" target="_blank">User Interface Design Basics</a><br><span class="site-author">by Department of Health and Human Services</span></li>
+                            <li><a href="https://www.beckdigital.com/blog/website-design-usability-testing" target="_blank">Usability Considerations When Designing a New Website</a><br><span class="site-author">by Ray William Johnson</span></li>
+                        </ul>
+                    </div>
+                </div>
+        
+            </div>
+            <footer>
+                    <span class="copyright">&copy; 2019 10BestWebsites</span>
+                    <a href="contact.html" class="contact"><span>Contact</span></a>
+                    <div id="footer-icons"></div>
+                            <a href="#" target="new"><img src="images/twitter.svg" alt="twitter" class="twitter"></a>
+                            <a href="#" target="new"><img src="images/facebook.svg" alt="facebook" class="facebook"></a>
+                    <div id="footernav">
+                            <ul class="footer-nav">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="designers.html">Designers</a></li>
+                                    <li><a href="10best.html">10 Best</a></li>
+                                    <li><a href="Resources.html">Resources</a></li>
+                                    <li><a href="Events.html">Events</a></li>
+                                </ul>
+                    </div>
+            
+            </footer>
+        </div>
+        <div class="alert-box">
+          <span class="alert-message">This website is best viewed with <a href="https://www.google.com/chrome/">Chrome</a></span>
+          <a href="https://www.google.com/chrome/" target="_blank"><img src="images/google-chrome-symbol-logo-png-3.png" alt="get google chrome" class="googlechrome" width="25px"></a>
+          <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+          </div>
+          <!--Animation for alert box close-->
+          <script>
+                      // Get all elements with class="closebtn"
+                      var close = document.getElementsByClassName("closebtn");
+                      var i;
+                      
+                      // Loop through all close buttons
+                      for (i = 0; i < close.length; i++) {
+                        // When someone clicks on a close button
+                        close[i].onclick = function(){
+                      
+                          // Get the parent of <span class="closebtn"> (<div class="alert-box">)
+                          var div = this.parentElement;
+                      
+                          // Set the opacity of div to 0 (transparent)
+                          div.style.opacity = "0";
+                      
+                          // Hide the div after 600ms (the same amount of milliseconds it takes to fade out)
+                          setTimeout(function(){ div.style.display = "none"; }, 600);
+                        }
+                      }
+          </script>
+            <!--AnimateOnScroll Initialized-->
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+          <script>
+            AOS.init();
+          </script>
+        </body>
+        </html>

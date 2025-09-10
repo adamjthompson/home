@@ -1,0 +1,125 @@
+@charset "UTF-8";
+#wrapper {
+	font-family: 'Open Sans', sans-serif;
+	width: 960px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+header {
+	background-color: #57A7DD;
+	width: 960px;
+	padding-top: 0px;
+	margin-bottom: 50px;
+	height: 175px;
+}
+footer {
+	width: 960px;
+	height: 175px;
+	clear: both;
+	background-color: #57A7DD;
+	margin-top: 50px;
+	position: relative;
+}
+#Slideshow  {
+}
+.logo {
+	padding-left: 15px;
+	padding-top: 15px;
+}
+nav ul li {
+	font-family: 'Share Tech Mono', monospace;
+	display: inline;
+	padding-right: 30px;
+	padding-left: 30px;
+	color: #000000;
+	padding-top: 0px;
+}
+nav li a {
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-top: 7px;
+	padding-right: 7px;
+	padding-bottom: 7px;
+	padding-left: 7px;
+}
+nav li a:hover  {
+	color: #000000;
+}
+.current {
+	background-color: #366C90;
+}
+.nav2 {
+	font-family: 'Share Tech Mono', monospace;
+	float: right;
+	width: 100px;
+	padding-right: 20px;
+}
+.nav2 li  {
+	padding-bottom: 5px;
+	margin-bottom: 0px;
+	list-style-type: none;
+}
+.nav2 li a {
+	color: #FFFFFF;
+}
+.nav2 li a:hover {
+	color: #000000;
+}
+h1 {
+	font-family: 'Share Tech Mono', monospace;
+}
+h2 {
+	font-family: 'Share Tech Mono', monospace;
+}
+.contact {
+	font-family: 'Share Tech Mono', monospace;
+	width: 175px;
+	float: left;
+	clear: both;
+	padding-left: 20px;
+}
+.contact a {
+	color: #FFFFFF;
+}
+.contact a:hover {
+	color: #000000;
+}
+article {
+	float: left;
+	border: 2px solid #57A7DD;
+	width: 286px;
+	height: 286px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+.ad {
+	margin-left: 20px;
+}
+.chunk1 {
+	margin-top: 50px;
+}
+.chunk2 {
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+.best {
+	width: 700px;
+	height: 360px;
+	float: none;
+}
+.butch {
+	float: left;
+}
+.logo2 {
+	position: absolute;
+	top: 47px;
+	left: 430px;
+}
+a {
+	color: #57A7DD;
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="179" height="175.022" viewBox="0 0 179 175.022">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.011" y1="0.988" x2="0.989" y2="0.012" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0e75bc"/>
+      <stop offset="1" stop-color="#00b5f1"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_30" data-name="Rectangle 30" width="179" height="175.022" rx="5" transform="translate(368 811)" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="Path_19" data-name="Path 19" d="M179.1,190.9H17.968a6.853,6.853,0,0,1-6.857-6.857V22.733a6.634,6.634,0,0,1,6.857-6.857H179.1a6.853,6.853,0,0,1,6.857,6.857V183.862A6.9,6.9,0,0,1,179.1,190.9Z" transform="translate(-11.104 -15.876)" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="seo-graphic" transform="translate(-368 -811)" clip-path="url(#clip-path)">
+    <g id="web-design-graphic-01" transform="translate(370.075 811)">
+      <g id="Mask_Group_2" data-name="Mask Group 2" clip-path="url(#clip-path-2)">
+        <g id="seo-graphic-04" transform="translate(-10.642 -11.728)">
+          <path id="Path_50" data-name="Path 50" d="M178.631,186.751H17.5a6.853,6.853,0,0,1-6.857-6.857V18.585A6.853,6.853,0,0,1,17.5,11.728H178.631a6.854,6.854,0,0,1,6.857,6.857V179.714A6.9,6.9,0,0,1,178.631,186.751Z" fill="url(#linear-gradient)"/>
+          <path id="Path_51" data-name="Path 51" d="M170.331,20.028H25.8a6.853,6.853,0,0,0-6.857,6.857V171.594A6.853,6.853,0,0,0,25.8,178.45H170.511a6.853,6.853,0,0,0,6.857-6.857V26.885A7.01,7.01,0,0,0,170.331,20.028ZM100.863,151.566a51.424,51.424,0,0,1,0-102.848A49.01,49.01,0,0,1,135.326,62.25L121.433,75.783a29.136,29.136,0,0,0-20.57-7.939c-17.5,0-31.937,14.435-31.937,32.478,0,17.863,14.254,32.478,31.937,32.478,20.389,0,27.967-14.615,29.231-22.194H100.863V92.924H149.4a57.256,57.256,0,0,1,.722,8.48C150.3,130.635,130.635,151.566,100.863,151.566Z" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

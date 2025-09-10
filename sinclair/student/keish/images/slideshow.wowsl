@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VisualLightBox>
+    <Gallery version="2.5">
+        <Settings>
+            <AppName>WOW Slider</AppName>
+            <AppUrlS>WOWSlider.com</AppUrlS>
+            <AppVersion>8.8</AppVersion>
+            <AutoPlay>true</AutoPlay>
+            <AutoPlayVideo>false</AutoPlayVideo>
+            <Captions>true</Captions>
+            <CaptionsEffect>parallax</CaptionsEffect>
+            <Controls>true</Controls>
+            <FontSize>10</FontSize>
+            <FullScreen>false</FullScreen>
+            <GalleryName>slideshow</GalleryName>
+            <GallerySuffix>1</GallerySuffix>
+            <HtmlCharset>UTF-8</HtmlCharset>
+            <ImageAspectRatio>true</ImageAspectRatio>
+            <ImageEffect></ImageEffect>
+            <ImageFillColor>#000000</ImageFillColor>
+            <ImageHeight>400</ImageHeight>
+            <ImageQuality>90</ImageQuality>
+            <ImageShrink2>false</ImageShrink2>
+            <ImageStretch>true</ImageStretch>
+            <ImageTemplate>E:/WOW Slider/templates/backgnd/boundary/</ImageTemplate>
+            <ImageTemplateName>Boundary</ImageTemplateName>
+            <ImageWidth>1048</ImageWidth>
+            <Images>true</Images>
+            <JoomlaType>2.5</JoomlaType>
+            <OneLoop>false</OneLoop>
+            <OrderRandom>false</OrderRandom>
+            <PlayPause>true</PlayPause>
+            <Preloader>false</Preloader>
+            <PublishFileName>C:/Users/Alexis/Desktop/website root/wowslider.html</PublishFileName>
+            <PublishIndex>wowslider.html</PublishIndex>
+            <PublishPath>C:/Users/Alexis/Desktop/website root</PublishPath>
+            <PublishPreview>true</PublishPreview>
+            <PublishType>file</PublishType>
+            <RelativePath>false</RelativePath>
+            <ShowBullets>1</ShowBullets>
+            <ShowControls>false</ShowControls>
+            <ShowTooltips>1</ShowTooltips>
+            <SizeStyle>1</SizeStyle>
+            <SlideshowDelay>20</SlideshowDelay>
+            <SlideshowDuration>22</SlideshowDuration>
+            <SoundEnable>0</SoundEnable>
+            <SoundFileName></SoundFileName>
+            <StopOnHover>false</StopOnHover>
+            <SwipeSupport>2</SwipeSupport>
+            <TemplateColor>#cc6055</TemplateColor>
+            <TemplateFont>Lora</TemplateFont>
+            <TemplateName>boundary</TemplateName>
+            <ThumbAlign>bottom</ThumbAlign>
+            <ThumbFormat>jpg</ThumbFormat>
+            <ThumbHeight>48</ThumbHeight>
+            <ThumbQuality>90</ThumbQuality>
+            <ThumbWidth>0</ThumbWidth>
+            <Thumbnails>false</Thumbnails>
+            <TooltipPos>bottom</TooltipPos>
+            <noFrame>0</noFrame>
+        </Settings>
+        <Images RelativePath="false">
+            <Image>
+                <url>C:/Users/Alexis/Desktop/website root/hero.png</url>
+                <title>Code. Design. Inspire</title>
+                <filesize>407309</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Alexis/Desktop/website root/slidshow.png</url>
+                <title>Featured Designer</title>
+                <usertarget>_blank</usertarget>
+                <filesize>473223</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Alexis/Desktop/website root/slidshowwho.png</url>
+                <title>10 Best Websites</title>
+                <filesize>599324</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Alexis/Desktop/website root/html.png</url>
+                <title>Reasources</title>
+                <filesize>44974</filesize>
+            </Image>
+            <Image>
+                <url>C:/Users/Alexis/Desktop/website root/Upcoming Events button.png</url>
+                <title>Events</title>
+                <filesize>80025</filesize>
+            </Image>
+        </Images>
+    </Gallery>
+</VisualLightBox>
