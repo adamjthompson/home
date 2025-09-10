@@ -664,8 +664,11 @@ button {
   -webkit-tap-highlight-color: transparent;
 }
 
-.accordion:hover {
-  background-color: #F2B66D;
+/* Only apply hover color on devices with hover capability */
+@media (hover: hover) and (pointer: fine) {
+  .accordion:hover {
+    background-color: #F2B66D;
+  }
 }
 
 .active {
@@ -687,7 +690,6 @@ button {
   line-height: 1.25em;
 }
 
-/* Remove the default yellow/blue focus background on mobile browsers */
 .accordion:focus {
   outline: none;              
 }
