@@ -63,9 +63,8 @@ body {
   background-color: #FFFFFF;
   min-height: 100vh;
   background-image: url("../images/maze.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-position: bottom;
-  background-size: contain;
 }
 
 #wrapper {
