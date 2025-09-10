@@ -317,7 +317,7 @@ footer {
   display: grid;
   grid-template-columns: none;
   white-space: nowrap;
-  background: #012E40;
+  background-color: #012E40;
   color: #FFFFFF;
 }
 
@@ -463,7 +463,7 @@ footer .info-bottom {
 
 /* Horizontal Menu Items */
 #hamnav {
-  background: #012E40;
+  background-color: #012E40;
   height: 0;
   border-top: 2px solid #F2866D;
 }
@@ -493,16 +493,16 @@ footer .info-bottom {
 }
 
 #hamitems a:hover {
-  background: #015475;
+  background-color: #015475;
   font-size: 1.8rem;
 }
 
 #hamitems a.current {
-  background: #027367;
+  background-color: #027367;
 }
 
 #hamitems a.current:hover {
-  background: #F2B66D;
+  background-color: #F2B66D;
 }
 
 /* Mobile */
@@ -536,7 +536,7 @@ footer .info-bottom {
     top: -25px;
     left: 0px;
     width: 100%;
-    background: #012E40;
+    background-color: #012E40;
     z-index: 100;
   }
 }
@@ -653,7 +653,7 @@ button {
 }
 
 .accordion {
-  background-color: #eee;
+  background-color: #eeeeee;
   cursor: pointer;
   padding: 12px;
   width: 100%;
