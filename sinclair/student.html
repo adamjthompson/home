@@ -1,70 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<title>Adam J. Thompson | Student Work</title>
-<meta name="description" content="Basic responsive portfolio demonstration site for my Sinclair Design Department Chair application.">
-<meta name="author" content="Adam J. Thompson">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500" rel="stylesheet">
-<link rel="stylesheet" href="css/reset.css">
-<link rel="stylesheet" href="css/styles.css?v=8">
-<link rel="icon" type="image/png" href="images/favicon-16.png">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="application/javascript"></script> 
-<script src="scripts/scroll.js" type="application/javascript"></script> 
-<script src="scripts/nav.js" type="application/javascript"></script>
+  <meta charset="utf-8">
+  <title>Adam J. Thompson | Student Work</title>
+  <meta name="description"
+    content="Basic responsive portfolio demonstration site for my Sinclair Design Department Chair application.">
+  <meta name="author" content="Adam J. Thompson">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500" rel="stylesheet">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css?v=8">
+  <link rel="icon" type="image/png" href="images/favicon-16.png">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="application/javascript"></script>
+  <script src="scripts/scroll.js" type="application/javascript"></script>
+  <script src="scripts/nav.js" type="application/javascript"></script>
 </head>
+
 <body>
-<a href="#top" id="top" title="Scroll to Top">Top<span></span></a>
-<div id="wrapper">
-  <header>
-    <h1 class="header-left"><a href="index.html">Adam J. Thompson</a></h1>
-    <div class="header-right">
-      <p class="info-top"><span class="accent">Dayton, OH</span> | <a href="tel:19372063777" class="accent">937.206.3777</a></p>
-      <p class="info-bottom"><a href="mailto:adam@adamjthompson.com?subject=Web Portfolio">adam@adamjthompson.com</a></p>
+  <a href="#top" id="top" title="Scroll to Top">Top<span></span></a>
+  <div id="wrapper">
+    <header>
+      <h1 class="header-left"><a href="index.html">Adam J. Thompson</a></h1>
+      <div class="header-right">
+        <p class="info-top"><span class="accent">Dayton, OH</span> | <a href="tel:19372063777"
+            class="accent">937.206.3777</a></p>
+        <p class="info-bottom"><a href="mailto:adam@adamjthompson.com?subject=Web Portfolio">adam@adamjthompson.com</a>
+        </p>
+      </div>
+    </header>
+    <nav class="u-max-full-width u-nopad" id="hamnav">
+      <!-- [THE HAMBURGER] -->
+      <label for="hamburger">
+        <div class="menu menu-box">
+          <div class="menu-icon">
+            <div class="menu-line menu-line-1"></div>
+            <div class="menu-line menu-line-2"></div>
+            <div class="menu-line menu-line-3"></div>
+          </div>
+        </div>
+      </label>
+      <input type="checkbox" id="hamburger" />
+      <!-- [MENU ITEMS] -->
+      <div id="hamitems"><a href="index.html">About</a><a href="student.html" class="current">Student</a><a
+          href="professional.html">Professional</a></div>
+    </nav>
+    <div class="grid-container full u-align-left u-nopad-bottom">
+      <h2>Student Work</h2>
     </div>
-  </header>
-  <nav class="u-max-full-width u-nopad" id="hamnav"> 
-    <!-- [THE HAMBURGER] -->
-    <label for="hamburger">
-    <div class="menu menu-box">
-      <div class="menu-icon">
-        <div class="menu-line menu-line-1"></div>
-        <div class="menu-line menu-line-2"></div>
-        <div class="menu-line menu-line-3"></div>
+    <div class="grid-container full u-align-justify">
+      <p>The designs on these page are those of my <a
+          href="https://www.sinclair.edu/program/params/programCode/VIS-S-AAS/" target="_blank">Visual
+          Communications</a> and <a href="https://www.sinclair.edu/program/params/programCode/DMD-S-AAS/"
+          target="_blank">Digital Media Design</a> students at Sinclair Community College. While I cannot claim direct
+        credit from the designs shown, I believe that the quality of their work speaks volumes of the design instruction
+        and critique they received during my classes.</p>
+      <p>I have divided the work into <a href="student-print.html">Print</a>, <a href="student-web.html">Web</a>, and <a
+          href="student-video.html">Video</a> categories. The print and web designs shown are generally from the first
+        or second semester of a two-year degree program and many of the students have no graphic design or software
+        skills when beginning their studies. The video projects are generally from second-year students.</p>
+    </div>
+    <div class="grid-container full u-align-justify u-nopad-bottom u-nopad-top"> </div>
+    <div class="grid-container thirds u-nopad-top">
+      <div class="categories">
+        <a href="student-print.html">
+          <h3>Print</h3>
+          <img src="images/print.jpg" alt="Print">
+        </a>
+      </div>
+      <div class="categories">
+        <a href="student-web.html">
+          <h3>Web</h3>
+          <img src="images/web.jpg" alt="Web">
+        </a>
+      </div>
+      <div class="categories">
+        <a href="student-video.html">
+          <h3>Video</h3>
+          <img src="images/video.jpg" alt="Video">
+        </a>
       </div>
     </div>
-    </label>
-    <input type="checkbox" id="hamburger"/>
-    <!-- [MENU ITEMS] -->
-    <div id="hamitems"><a href="index.html">About</a><a href="student.html" class="current">Student</a><a href="professional.html">Professional</a></div>
-  </nav>
-  <div class="grid-container full u-align-left u-nopad-bottom">
-    <h2>Student Work</h2>
+    <div id="footer-wrap">
+      <footer class="u-max-full-width">
+        <p class="info-top u-align-right">Dayton, OH | <a href="tel:19372063777">937.206.3777</a></p>
+        <p class="info-bottom"><a href="mailto:adam@adamjthompson.com?subject=Web Portfolio">adam@adamjthompson.com</a>
+        </p>
+      </footer>
+    </div>
   </div>
-  <div class="grid-container full u-align-justify">
-    <p>The designs on these page are those of my <a href="https://www.sinclair.edu/program/params/programCode/VIS-S-AAS/" target="_blank">Visual Communications</a> and <a href="https://www.sinclair.edu/program/params/programCode/DMD-S-AAS/" target="_blank">Digital Media Design</a> students at Sinclair Community College. While I cannot claim direct credit from the designs shown, I believe that the quality of their work speaks volumes of the design instruction and critique they received during my classes.</p>
-    <p>I have divided the work into <a href="student-print.html">Print</a>, <a href="student-web.html">Web</a>, and <a href="student-video.html">Video</a> categories. The print and web designs shown are generally from the first or second semester of a two-year degree program and many of the students have no graphic design or software skills when beginning their studies. The video projects are generally from second-year students.</p>
-  </div>
-  <div class="grid-container full u-align-justify u-nopad-bottom u-nopad-top"> </div>
-  <div class="grid-container thirds u-nopad-top">
-    <div class="categories">
-      <h3>Print</h3>
-      <a href="student-print.html"><img src="images/print.jpg" alt="Print"></a></div>
-    <div class="categories">
-      <h3>Web</h3>
-      <a href="student-web.html"><img src="images/web.jpg" alt="Web"></a></div>
-    <div class="categories">
-      <h3>Video</h3>
-      <a href="student-video.html"><img src="images/video.jpg" alt="Video"></a></div>
-  </div>
-  <div id="footer-wrap">
-    <footer class="u-max-full-width">
-      <p class="info-top u-align-right">Dayton, OH | <a href="tel:19372063777">937.206.3777</a></p>
-      <p class="info-bottom"><a href="mailto:adam@adamjthompson.com?subject=Web Portfolio">adam@adamjthompson.com</a></p>
-    </footer>
-  </div>
-</div>
 </body>
+
 </html>
