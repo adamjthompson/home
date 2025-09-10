@@ -1,6 +1,6 @@
 // Requires jQuery
 (function () {
-  var OFFSET = 30; // gap above the heading
+  var OFFSET = 40; // gap above the heading
 
   function getPanel(btn) {
     return btn.nextElementSibling;
