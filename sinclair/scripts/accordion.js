@@ -1,6 +1,6 @@
 // Requires jQuery
 (function () {
-  var OFFSET = 20; // gap above the heading
+  var OFFSET = 30; // gap above the heading
 
   function getPanel(btn) {
     return btn.nextElementSibling;
@@ -14,7 +14,7 @@
     if (max < 0) max = 0;
     y = Math.max(0, Math.min(y, max));
 
-    $('html, body').stop(true, true).animate({ scrollTop: y }, 400);
+    $('html, body').stop(true, true).animate({ scrollTop: y }, 100);
   }
 
   $('.accordion').on('click', function () {
