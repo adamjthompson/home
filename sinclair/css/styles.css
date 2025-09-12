@@ -651,6 +651,11 @@ img {
   height: 100%;
 }
 
+.video iframe {
+  background: #000000 url(../images/load.webp) center center no-repeat;
+  background-size: 150px 150px;
+}
+
 /* Accordion
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 button {
