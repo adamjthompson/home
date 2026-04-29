@@ -98,27 +98,27 @@
     
     <div class="card" style="border-left: 4px solid #4CAF50;">
         <h2>Import Existing File (Optional)</h2>
-        <p class="help-text" style="margin-top: 0;">Already have a gaming_profiles.json file? Upload it here to edit your existing settings.</p>
+        <p class="help-text" style="margin-top: 0;">Already have a <b>gaming_profiles.json</b> file? Upload it here to edit your existing settings.</p>
         <input type="file" id="file-upload" accept=".json">
         <button type="button" class="upload-btn" onclick="handleFileUpload()">Import JSON</button>
     </div>
 
     <div class="card" id="profiles-container">
         <h2>1. User Profiles</h2>
-        <span class="help-text">Enter Gamer Tags exactly as they appear. We will format them for Home Assistant automatically.</span>
+        <span class="help-text">Enter Gamer Tags exactly as they appear. They will be formatted for Home Assistant automatically.</span>
         <div id="profiles-list"></div>
         <button type="button" onclick="addProfile('', '', '', '')">+ Add New Player</button>
     </div>
 
     <div class="card">
         <h2>2. Global Exclusions</h2>
-        <span class="help-text">Apps, dashboards, or video players that should NEVER trigger a "playing" status for anyone. Enter one per line.</span>
+        <span class="help-text">Apps, dashboards, or video players that should NEVER trigger a "playing" status for anyone. One per line.</span>
         <textarea id="global-exclusions-input"></textarea>
     </div>
 
     <div class="card">
         <h2>3. Title Cleanups</h2>
-        <span class="help-text">Phrases that will be automatically scrubbed and deleted from any game title (e.g., removing "Director's Cut" to help find cover art). Enter one per line.</span>
+        <span class="help-text">Phrases that will be automatically scrubbed and deleted from any game title (e.g., removing "Director's Cut" to help find cover art). One per line.</span>
         <textarea id="title-cleanups-input"></textarea>
     </div>
 
@@ -138,10 +138,13 @@
 
     <div class="card">
         <h2>Finish & Export</h2>
-        <button type="button" onclick="generateJSON()" style="width: 100%; font-size: 1.2em; padding: 15px;">Generate gaming_profiles.json</button>
+        <button type="button" onclick="generateJSON()" style="width: 100%; font-size: 1.2em; padding: 15px;">Generate JSON</button>
         <br><br>
         <textarea id="json-output" readonly placeholder="Your generated JSON will appear here..."></textarea>
-        <button type="button" onclick="copyToClipboard()" style="background: #4CAF50;">Copy to Clipboard</button>
+        <div style="display: flex; gap: 10px; margin-top: 10px;">
+            <button type="button" onclick="copyToClipboard()" style="background: #4CAF50; flex: 1;">Copy to Clipboard</button>
+            <button type="button" onclick="downloadJSON()" style="background: #2196F3; flex: 1;">Download JSON File</button>
+        </div>
     </div>
 
     <script>
@@ -365,6 +368,32 @@
             copyText.select();
             document.execCommand("copy");
             alert("Copied to clipboard!");
+        }
+
+        function downloadJSON() {
+            // Force a fresh generation just in case they forgot to click it
+            generateJSON(); 
+            
+            const content = document.getElementById('json-output').value;
+            if (!content || content.trim() === "") {
+                alert("Nothing to download!");
+                return;
+            }
+
+            // Package the text into a JSON file format
+            const blob = new Blob([content], { type: "application/json" });
+            const url = URL.createObjectURL(blob);
+            
+            // Create a hidden temporary link, click it, and delete it
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = "gaming_profiles.json"; // Forces the exact file name!
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            
+            // Clean up the memory
+            URL.revokeObjectURL(url);
         }
 
         // Initialize UI on load
